@@ -1,0 +1,145 @@
+/*available fonts
+font-family: 'Lobster Two', cursive;
+font-family: 'Bellefair', serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+/*globals*/
+
+*:focus {
+  display: none;
+}
+
+a {
+  color: #AB2318;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Lora', serif;
+}
+
+body {
+  font-family: 'Bellefair', serif;
+}
+
+p {
+  padding: 30px;
+  font-size: 20px;
+}
+
+/*header section*/
+
+.prh-red-row {
+  background-color: #AB2318;
+  height: 100px;
+  color: white;
+}
+
+.prh-red-row h1 {
+  font-size: 45px;
+  margin-top: 20px;
+}
+
+.prh-grey-row {
+  background-color: #C9C4C1;
+  height: 60px;
+  color: black;
+}
+
+.prh-grey-row h2 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.prh-contact {
+  font-size: 30px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .prh-red-row {
+    background-color: #AB2318;
+    height: 80px;
+    color: white;
+  }
+
+  .prh-red-row h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .prh-grey-row {
+    background-color: #C9C4C1;
+    height: 60px;
+    color: black;
+  }
+
+  .prh-grey-row h2 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .prh-contact {
+    font-size: 22px;
+    margin: 20px;
+  }
+}
+
+/*main content*/
+
+.prh-resume-button {
+  margin: -20px 0 20px 30px;
+}
+
+.prh-skills {
+  padding: 40px 15px;
+  background-color: #470600;
+  color: white;
+  font-size: 50px;
+}
+
+@media (max-width: 480px) {
+  .prh-skills {
+    font-size: 40px;
+  }
+}
+
+.prh-clients {
+  padding: 40px 15px;;
+  background-color: #AB2318;
+  color: white;
+  font-size: 40px;
+}
+
+@media (max-width: 480px) {
+  .prh-clients {
+    font-size: 25px;
+  }
+}
+
+.prh-portfolio {
+  padding: 20px;
+  background-color: slategray;
+  color: black;
+  font-size: 33px;
+}
+
+.prh-portfolio img {
+  margin: 10px 0;
+}
+.prh-portfolio iframe {
+  margin: 10px 0px;
+}
+
+/*footer*/
+
+footer {
+  margin: 20px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "responsive-personal-portfolio",
+  "version": "1.0.0",
+  "description": "responsive personal portfolio site using bootstrap 3.3 and express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo727272/responsive-personal-portfolio.git"
+  },
+  "author": "Paul Humphrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo727272/responsive-personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/pablo727272/responsive-personal-portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

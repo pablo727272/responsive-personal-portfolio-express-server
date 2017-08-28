@@ -1,0 +1,26 @@
+name, headshot, front end web developer
+contact info, linkedin
+link to resume PDF
+about me:
+	passion for technology, 
+music, poetry, design, 
+links to work:
+	longmontcomputer.com, airshow, dom
+graphic design samples
+meetup groups:  denver vr, denverscript, boulder js, etc...  check site
+certifications:  comptia a+
+interests:
+	nature, hiking, camping, ecology, "green" thinking
+	books: shakespeare "hamlet, macbeth, julius caesar", cormac mccarthy,
+		 walt whitman "leaves of grass", thoreau "walden",
+		 william faulkner "as i lay dying", f scott fitzgerald "the
+		 great gatsby", edward albee "desert solitaire, monkey wrench
+		 gang"
+	people: tesla, whitman, john muir
+	movies: citizen kane, 2001: a space odyssey, sunrise, the new world,
+		melancholia
+	music: nick drake, bert jansch, riley walker, 60's garage, hank
+		williams
+youtube: guitar/film "grandin" "road moments" "computer blues"
+youtube: 360/vr...  some recent videos
+emerging tech:  vr, ar, webvr
