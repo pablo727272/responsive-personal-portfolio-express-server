@@ -10,6 +10,10 @@
         <title>Paul Humphrey - Personal Portfolio</title>
         <!-- mobile ready -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicons -->
+        <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
         <!-- bootstrap css -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
             crossorigin="anonymous">
@@ -17,16 +21,6 @@
         <link href="https://fonts.googleapis.com/css?family=Bellefair|Lobster+Two|Lora|Roboto" rel="stylesheet">
         <!-- custom css -->
         <link rel="stylesheet" href="/css/main.css">
-        <!-- jQuery js -->
-        <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-        <!-- bootstrap js -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-        <!-- favicons -->
-        <link rel="icon" type="image/png" href="https://cdn.yourwebsite.com/favicon-16x16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="https://cdn.yourwebsite.com/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="https://cdn.yourwebsite.com/favicon-96x96.png" sizes="96x96">
     </head>
 
   </body>
@@ -41,14 +35,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"><img src="/images/favicon-32x32.png"></a>
+                <a class="navbar-brand" href="/index.html"><img src="/images/favicon-32x32.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#clients">Clients</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
@@ -59,11 +53,14 @@
     </nav><!-- close navbar -->
     <!-- navbar end -->
 
+    <!-- back to top button -->
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
     <!-- header section - name, title, photo, contact -->
     <header>
         <div class="container-fluid">
             <div class="row">
-                <img src="/images/Codecraft-August-2017-Cohort-9-square-v.jpg" class="img-responsive center-block img-circle" alt="Paul Humphrey headshot" width="30%">
+                <img src="/images/prh-headshot-color-300.jpg" class="img-responsive center-block img-circle headshot" alt="Paul Humphrey headshot">
             </div>
             <br>
             <div class="row prh-red-row text-center">
@@ -92,8 +89,8 @@
     <!-- about me, brief bio, download resume button -->
     <section>
         <div class="container-fluid">
-            <div class="row prh-grey-row text-center" id="about-me">
-                <h2>About Me:</h2>
+            <div class="row prh-grey-row text-center" id="about">
+                <h2>About:</h2>
             </div>
             <div class="row">
                 <p>Front-end Web Developer with extensive experience in Design for Responsive, Mobile, and Desktop Sites, Digital and Print Advertising for business and individual clientele. Skilled in utilizing keen coding, cutting-edge web/design tools, and innovative design to create robust, commercially successful websites, layouts, and products. Personable and friendly, with an expert ability to develop lasting client relationships promoting business growth.</p>
@@ -247,25 +244,34 @@
                 <br><br>
                 Tech: Web, Virtual Reality, Augmented Reality, Neural Networks, Autonomous Cars, AI.
                 <br><br>
-                Meetups: <a href="https://www.meetup.com/Boulder-JS/" alt="Boulder JS" target="_blank">Boulder JS</a>, <a href="https://www.meetup.com/Colorado-VR/" alt="COVR" target="_blank">Colorado Virtual Reality - COVR</a>, <a href="https://www.meetup.com/DenverScript/" alt="DenverScript" target="_blank">DenverScript</a>, <a href="https://www.meetup.com/bdnewtech/" alt="New Tech" target="_blank">New Tech Colorado</a>
+                Meetups: <a href="https://www.meetup.com/Boulder-JS/" alt="Boulder JS" target="_blank">Boulder JS</a>, <a href="https://www.meetup.com/Colorado-VR/" alt="COVR" target="_blank">Colorado Virtual Reality - COVR</a>, <a href="https://www.meetup.com/DenverScript/" alt="DenverScript" target="_blank">DenverScript</a>, <a href="https://www.meetup.com/bdnewtech/" alt="New Tech" target="_blank">New Tech Colorado</a>, <a href="https://www.meetup.com/DevFaction-Boulder/" alt="DevFaction-Boulder" target="_blank">DevFaction-Boulder</a>
                 <br><br>
                 CompTIA A+ Certified
                 <br><br>
-                <a href="http://nowherelimited.com/paul-humphrey-inversions.html" alt="Inversions review" target="_blank">A nice review of one of my films.</a>
+                <a href="http://nowherelimited.com/paul-humphrey-inversions.html" alt="Inversions review" target="_blank">A nice review of one of my films</a>.
                 <br><br>
-                <a href="https://medium.com/@pablo727272/codecraft-school-in-boulder-co-week-8-hackathon-376a9f89e7d7" alt="Hackleberry Finn hackathon" target="_blank">Blog post about my Hackleberry Finn hackathon project, August 2017.</a></p>
+                <a href="https://medium.com/@pablo727272/codecraft-school-in-boulder-co-week-8-hackathon-376a9f89e7d7" alt="Hackleberry Finn hackathon" target="_blank">Blog post about my Hackleberry Finn hackathon project, August 2017</a>.</p>
             </div>
         <!-- close interests container -->
         </div>
     </section>
 
+    <hr>
+
     <!-- footer, copyright info -->
     <footer>
         <div class="row text-center">
+            <p><a href="#about">About</a> | <a href="#skills">Skills</a> | <a href="#clients">Clients</a> | <a href="#portfolio">Portfolio</a> | <a href="#interests">Interests</a></p>
             <small>Copyright &copy; Paul Humphrey. All rights reserved.</small>
         </div>
     </footer>
 
+    <!-- jQuery js -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <!-- custom js -->
     <script src="/js/main.js"></script>
 
