@@ -42,5 +42,28 @@ app.use(function(req, res, next){
     res.redirect('/404')
 })
 
+try {
+    var httpsConfig = {
+        key  : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/privkey.pem'),
+        cert : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/cert.pem')
+    }
+    var httpsServer = HTTPS.createServer(httpsConfig, app)
+    httpsServer.listen(443)
+}
+catch(error){
+    console.log(error)
+    console.log('could not set up HTTPS')
+}
+finally {
+    console.log('this code runs regardless of whether the above code succeeded or failed')
+}
+
+var httpApp = express()
+httpApp.use(function(req, res){
+    console.log(req.url)
+    res.redirect('https://thepasswordisdragons.com' + req.url)
+})
+httpApp.listen(80)
+
 // listen on which port?
 app.listen(80)
