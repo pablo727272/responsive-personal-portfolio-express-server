@@ -61,7 +61,7 @@ finally {
 var httpApp = express()
 httpApp.use(function(req, res){
     console.log(req.url)
-    res.redirect('https://thepasswordisdragons.com' + req.url)
+    res.redirect('https://paulhumphrey.me' + req.url)
 })
 httpApp.listen(80)
 
