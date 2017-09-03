@@ -19,6 +19,8 @@
 
 // we need these from the npm_modules foler
 var express = require('express')
+var HTTP = require('http')
+var HTTPS = require('https')
 
 // start the express server app
 var app = express()
