@@ -1,6 +1,6 @@
 console.log('hello from /js/main.js');
 
-$( document ).ready(function() { // begin jQuery
+$(document).ready(function() { // begin jQuery
     console.log( "jQuery ready!" )
 
 
