@@ -21,6 +21,7 @@
 var express = require('express')
 var HTTP = require('http')
 var HTTPS = require('https')
+var fs = require('fs')
 
 // start the express server app
 var app = express()
