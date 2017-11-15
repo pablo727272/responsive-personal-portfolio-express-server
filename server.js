@@ -34,6 +34,11 @@ app.get('/', function(req,res){
     res.sendFile('./html/index.html', {root: './public'})
 })
 
+// web vr demo stuff
+app.get('/webvr', function(req,res){
+    res.sendFile('./web-vr-170830/index.html', {root: './public'})
+})
+
 // 404 page
 app.get('/404', function(req,res){
     res.sendFile('./html/404.html', {root: './public'})
