@@ -53,7 +53,7 @@ app.use(function(req, res, next){
 // USE THIS CODE ONCE PUSHED UP TO DROPLET
 try {
     var httpsConfig = {
-        key  : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/privkey.pem$
+        key  : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/privkey.pem')
         cert : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/cert.pem')
     }
     var httpsServer = HTTPS.createServer(httpsConfig, app)
