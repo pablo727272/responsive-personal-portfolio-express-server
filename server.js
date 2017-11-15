@@ -53,7 +53,7 @@ app.use(function(req, res, next){
 // USE THIS CODE ONCE PUSHED UP TO DROPLET
 try {
     var httpsConfig = {
-        key  : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/privkey.pem')
+        key  : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/privkey.pem'),
         cert : fs.readFileSync('/etc/letsencrypt/live/paulhumphrey.me/cert.pem')
     }
     var httpsServer = HTTPS.createServer(httpsConfig, app)
@@ -71,8 +71,9 @@ catch(error){
     app.listen(8080)
 }
 finally {
-    console.log('this code runs regardless of whether the above code succeeded$
+    console.log('this code runs regardless of whether the above code succeeded or failed')
 }
 
-// listen on which port?
-// app.listen(80)
+
+
+// app.listen(8080)
